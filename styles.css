@@ -1,0 +1,44 @@
+#question {
+    text-align: center;
+}
+
+#answer {
+    text-align: center;
+}
+
+.ball {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.window {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: darkblue;
+    border: 3px solid darkslategray;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: fantasy;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
